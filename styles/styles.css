@@ -1,0 +1,287 @@
+/* Shared Styles */
+
+:root {
+  --primary-bg-color: #ff42a5;
+}
+
+* {
+  font-family: "Courier Prime", monospace;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.small-font {
+  color: rgba(207, 197, 197, 0.6);
+  font-size: 14px;
+}
+
+.primary-button {
+  color: #fff;
+  background-color: var(--primary-bg-color);
+  font-size: 14px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  color: #534c64;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/*  */ /*  */ /*  */ /*  */
+/* Navigation Section styles */
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 180px;
+}
+
+nav .nav-links {
+  color: rgba(60, 53, 79, 1);
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  color: #0b0223;
+  font-size: 25px;
+}
+
+.nav-logo img {
+  width: 65px;
+}
+
+.nav-logo span {
+  color: #ff42a5;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 16px;
+}
+
+.nav-links .nav-followus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  padding: 0px 10px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+.nav-links .nav-followus p {
+  color: #3c354f;
+  font-size: 16px;
+}
+
+/*  */ /*  */ /*  */ /*  */
+/* Banner Section styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  /* gap: 200px; */
+
+  padding: 20px 180px 0px 180px;
+  background-image: url("../images/background.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+
+.banner-details h1 {
+  color: #0b0223;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-details h1 span {
+  font-size: 75px;
+  font-weight: 800;
+}
+
+.banner-item-description {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 8px;
+  align-items: center;
+}
+
+.banner-item {
+  margin-bottom: 25px;
+}
+
+.banner-button {
+  display: flex;
+  gap: 25px;
+}
+
+.banner-button .blue-button {
+  background-color: #4ec5f7;
+}
+
+.banner-image img {
+  width: 550px;
+}
+
+/* Main Section styles */
+/*  */ /*  */ /*  */ /*  */
+/* Gamer section styles */
+.gamer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 180px;
+}
+
+.gamer-details {
+  text-align: right;
+}
+
+.gamer-section img {
+  width: 750px;
+}
+
+.gamer-purpose {
+  margin-top: 15px;
+}
+.gamer-purpose p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.gamer-purpose small {
+  color: #534c64;
+}
+
+.gamer-details span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/*  */ /*  */ /*  */ /*  */
+
+/* video-section styles */
+.video-section {
+  padding: 120px 180px;
+  text-align: center;
+  /* max-width: 800px; */
+}
+
+.video-section p {
+  color: #534c64;
+  font-size: 14px;
+}
+
+/* Cards Styels */
+.video-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 45px;
+}
+
+.video-card div {
+  flex: 1;
+}
+
+.video-card-description img {
+  max-width: 100%;
+}
+
+.video-card-description p {
+  text-align: left;
+}
+
+.video-card-description img:hover {
+  border-radius: 16px;
+  filter: brightness(0.4);
+}
+
+/*  */ /*  */ /*  */ /*  */
+
+/* Footer Styles */
+footer {
+  margin: auto;
+  text-align: center;
+  background: #0b0223;
+  padding: 120px 0px 130px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 420px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-ikons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 520px 0px;
+}
+
+.footer-terms {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 480px;
+}
+.footer-terms a {
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  color: #fff;
+  font-size: 25px;
+}
+
+.footer-logo img {
+  width: 70px;
+}
+
+.footer-logo span {
+  color: #ff42a5;
+}
