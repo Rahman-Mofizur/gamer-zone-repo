@@ -101,4 +101,117 @@
   .gamer-details span {
     font-size: 25px;
   }
+
+  /*  */ /*  */ /*  */ /*  */
+
+  /* video-section styles */
+  .video-section {
+    padding: 40px 80px;
+  }
+  .video-section p {
+    font-size: 7px;
+  }
+  .video-section h1 {
+    font-size: 16px;
+  }
+  .video-card {
+    flex-direction: column;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* text-align: center; */
+  }
+  .video-card-description p {
+    text-align: center;
+  }
+
+  /*  */ /*  */ /*  */ /*  */
+  /* Instant Play Section Styles */
+  .play-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 80px;
+  }
+  .play-details .medium-font {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0px 40px 20px;
+  }
+  .play-details {
+    text-align: center;
+  }
+  .play-image .img-1 {
+    max-width: 100%;
+  }
+  .img-2 img {
+    max-width: 100px;
+  }
+
+  /*  */ /*  */ /*  */ /*  */
+
+  /* Game category section Styles */
+  .game-cat-section {
+    padding: 20px 50px 40px;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 20px;
+    column-gap: 6px;
+  }
+  .cat-cards {
+    gap: 5px;
+    /* margin: 0px auto; */
+    padding: 3px 5px;
+    border-radius: 50px;
+    background: #fff;
+    /* text-align: left; */
+  }
+  .cat-cards img {
+    width: 18px;
+  }
+  .cat-cards p {
+    font-size: 6px;
+  }
+  /*  */ /*  */ /*  */ /*  */
+
+  /* Footer Styles */
+  footer {
+    margin: 0px auto;
+    text-align: center;
+    background: #0b0223;
+    padding: 30px 0px 30px;
+  }
+  .footer-logo {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .footer-logo img {
+    width: 45px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0px 60px;
+    margin: 20px auto;
+  }
+  .footer-links a,
+  .footer-terms a {
+    font-size: 10px;
+  }
+  .footer-ikons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px auto;
+    padding: 25px 70px 0px;
+    gap: 15px;
+  }
+  .footer-ikons img {
+    width: 25px;
+  }
+  .footer-terms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+    margin: 30px 90px;
+    gap: 15px;
+  }
 }
